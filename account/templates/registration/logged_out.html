@@ -1,0 +1,11 @@
+<!-- account/templates/account/lotout.html -->
+{% extends 'base.html' %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<h1>Your are logged out</h1>
+<p>
+	You can<a href="{% url 'login' %}"> Login again</a>
+</p>
+{% endblock %}
